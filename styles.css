@@ -135,12 +135,15 @@ body {
     color: blueviolet;
 }
 
-/*Grid1 page*/
+/*Grid wrappers*/
 .four-column-wrapper {
     display: grid;
     grid-template-columns: .5fr 2fr 2fr .5fr;
 }
-
+.three-column-wrapper {
+    display: grid;
+    grid-template-columns: .1fr 2fr .1fr;
+}
 .Grid1-image-wrapper {
 
 }
